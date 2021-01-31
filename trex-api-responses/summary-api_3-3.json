@@ -1,0 +1,87 @@
+{
+  "accepted_count": 2,
+  "active_pool": {
+    "difficulty": "4.00 Gh",
+    "ping": 19,
+    "retries": 0,
+    "url": "stratum+ssl://eu1.ethermine.org:5555",
+    "user": "0x0000000000000000000000000000000000000000"
+  },
+  "algorithm": "ethash",
+  "api": "3.3",
+  "build_date": "Dec 21 2020 14:40:48",
+  "coin": "",
+  "cuda": "11.10",
+  "description": "T-Rex NVIDIA GPU miner",
+  "difficulty": 0.99392999999999998,
+  "driver": "460.32.03",
+  "gpu_total": 1,
+  "gpus": [
+    {
+      "device_id": 0,
+      "efficiency": "390kH/W",
+      "fan_speed": 54,
+      "gpu_id": 0,
+      "gpu_user_id": 0,
+      "hashrate": 91189394,
+      "hashrate_day": 0,
+      "hashrate_hour": 0,
+      "hashrate_instant": 95948880,
+      "hashrate_minute": 91189394,
+      "intensity": 22.0,
+      "low_load": false,
+      "mtweak": 0,
+      "name": "RTX 3080",
+      "power": 237,
+      "power_avr": 234,
+      "temperature": 65,
+      "uuid": "01c83c6fc061af847cd84920f291a37a\u0000",
+      "vendor": "EVGA"
+    }
+  ],
+  "hashrate": 91189394,
+  "hashrate_day": 0,
+  "hashrate_hour": 0,
+  "hashrate_minute": 91189394,
+  "name": "t-rex",
+  "os": "linux",
+  "rejected_count": 3,
+  "revision": "5f0b2f67355c",
+  "sharerate": 2.0,
+  "sharerate_average": 3.0129999999999999,
+  "solved_count": 4,
+  "stat_by_gpu": [
+    {
+      "accepted_count": 2,
+      "rejected_count": 0,
+      "solved_count": 0
+    }
+  ],
+  "success": 1,
+  "ts": 1612092538,
+  "updates": {
+    "download_status": {
+      "downloaded_bytes": 0,
+      "last_error": "",
+      "time_elapsed_sec": 0.0,
+      "total_bytes": 0,
+      "update_in_progress": false,
+      "update_state": "idle",
+      "url": ""
+    },
+    "md5sum": "7acef0212aa8afba731d59b55a7a8923",
+    "notes": "\r\nStability improvements and bug fixes",
+    "notes_full": "Stability improvements and bug fixes",
+    "url": "https://github.com/trexminer/T-Rex/releases/download/0.19.9/t-rex-0.19.9-linux-cuda11.1.tar.gz",
+    "version": "0.19.9"
+  },
+  "uptime": 76,
+  "version": "0.19.5",
+  "watchdog_stat": {
+    "built_in": true,
+    "startup_ts": 1612092460497045,
+    "total_restarts": 0,
+    "uptime": 78,
+    "wd_version": "0.19.5"
+  }
+}
