@@ -29,7 +29,7 @@ func init() {
 	RootCmd.PersistentFlags().StringVar(&exporter.Worker, flagWorker, "trex",
 		"Name to identify the T-Rex Miner. The name will be included in every metric as the label 'worker'.")
 
-	RootCmd.PersistentFlags().StringVar(&exporter.WebListenAddress, flagWebListenAddress, "0.0.0.0:9536",
+	RootCmd.PersistentFlags().StringVar(&exporter.WebListenAddress, flagWebListenAddress, "0.0.0.0:9788",
 		"Address on which to expose metrics.")
 }
 
