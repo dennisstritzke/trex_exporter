@@ -22,6 +22,9 @@ RUN chmod +x bin/trex
 
 FROM alpine:3.15
 
+# set label for Docker image repo
+LABEL org.opencontainers.image.source="https://github.com/warren-ru/trex_exporter"
+
 # create directory for the app and set it as a work dircetory
 RUN mkdir -p /trex_exporter
 WORKDIR /trex_exporter
